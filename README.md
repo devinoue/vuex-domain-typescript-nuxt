@@ -1,7 +1,8 @@
 # vuex-domain-typescript-nuxt
 vuex-module-decoratorsを利用したシンプルなカウンタです。
-Vuexにユースケースを集めて、.vueファイルは薄く書くという方針の一例です。
-Vueの場合厳密なカプセル化が難しいですが、Linterがエラーをはいてくれるので、その気になればVuexをドメインとしたデザインも可能ではないかと思います。
+VuexにClean Architectureでいうユースケース層を集め、.vueファイルは薄く書くという方針の一例です。
+
+Vueの場合厳密なカプセル化が難しいですが、Linterがエラーをはいてくれるので、その気になればVuexをDomainとしたデザインも可能ではないかと思います。
 
 
 
