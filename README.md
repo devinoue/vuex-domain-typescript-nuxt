@@ -1,8 +1,10 @@
 # vuex-domain-typescript-nuxt
 vuex-module-decoratorsを利用したシンプルなカウンタです。
-VuexにClean Architectureでいうユースケース層を集め、.vueファイルは薄く書くという方針の一例です。
+Vue/Nuxtのアーキテクチャについて検討した際、TypeScript + Vuexで内部状態を保持するのはどうだろうというアイディアが出たので、簡単に実装してみました。  
 
-Vueの場合厳密なカプセル化が難しいですが、Linterがエラーをはいてくれるので、その気になればVuexをDomainとしたデザインも可能ではないかと思います。
+VuexにClean Architectureでいうユースケース層を集め、.vueファイルは薄く書くという方針の一例です。  
+
+実装の利益よりもむしろ、TypeScriptのアクセス修飾子はNuxtでは正確には働かず、スルーされてトランスパイルされてしまうことが分かり、どうも厳密なカプセル化が難しいようです。ただLinterがエラーをはいてくれるので、その気になればVuexをModelとしたデザインも可能ではないかと思います。
 
 
 
